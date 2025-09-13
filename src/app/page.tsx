@@ -6,7 +6,7 @@ import {
   documentales,
   infoParroquia,
   type Capilla,
-} from "@/lib/data";
+} from "../lib/data";
 
 export default function ParroquiaHomepage() {
   const [selectedCapilla, setSelectedCapilla] = useState<Capilla | null>(null);

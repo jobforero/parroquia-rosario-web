@@ -305,7 +305,7 @@ export const proximosEventos: Evento[] = [
 export const infoParroquia = {
   nombre: "Parroquia Nuestra Señora del Rosario",
   ubicacion: "Torrijos Carter",
-  telefono: "+507 XXX-XXXX",
+  telefono: "234-2463",
   email: "parroquia.rosario@gmail.com",
   parroco: "Párroco: Andrés Acevedo",
   horariosMisaDominical: [
@@ -324,9 +324,9 @@ export const infoParroquia = {
     "Sábado 6:00 PM - Capilla Principal",
   ],
   redesSociales: {
-    instagram: "@nuestrasenoradelrosariotc",
-    youtube: "NSDRosarioPTY",
-    facebook: "Parroquia Nuestra Señora Del Rosario",
+    instagram: "nuestrasenoradelrosariotc",
+    youtube: "nsdrosariopty507",
+    facebook: "NSDRosarioPTY",
   },
   servicios: [
     "Misas dominicales y diarias",

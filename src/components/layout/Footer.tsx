@@ -1,4 +1,4 @@
-import { MapPin, Phone, Instagram, Youtube } from "lucide-react";
+import { MapPin, Phone, Instagram, Youtube , Facebook} from "lucide-react";
 import { infoParroquia } from "../../lib/data";
 
 export default function Footer() {
@@ -57,6 +57,14 @@ export default function Footer() {
                 className="text-red-400 hover:text-red-300 transition-colors"
               >
                 <Youtube className="w-6 h-6" />
+              </a>
+                            <a
+                href={`https://www.facebook.com/@${infoParroquia.redesSociales.facebook}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-red-400 hover:text-red-300 transition-colors"
+              >
+                <Facebook className="w-6 h-6" />
               </a>
             </div>
             <p className="text-sm text-blue-200">

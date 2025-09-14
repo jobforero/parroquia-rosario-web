@@ -304,13 +304,13 @@ export const proximosEventos: Evento[] = [
 // Información general de la parroquia
 export const infoParroquia = {
   nombre: "Parroquia Nuestra Señora del Rosario",
-  ubicacion: "Torrijos Carter, Arco Iris, Colón, Panamá",
+  ubicacion: "Torrijos Carter",
   telefono: "+507 XXX-XXXX",
   email: "parroquia.rosario@gmail.com",
-  parroco: "Padre [Nombre del Párroco]",
+  parroco: "Párroco: Andrés Acevedo",
   horariosMisaDominical: [
-    "8:00 AM - Capilla Principal",
-    "10:00 AM - Capilla Principal",
+    "7:00 AM - Parroquia",
+    "10:00 AM - Parroquia",
     "4:00 PM - Capilla Medalla Milagrosa",
     "6:00 PM - Capilla Guadalupe",
   ],
@@ -324,9 +324,9 @@ export const infoParroquia = {
     "Sábado 6:00 PM - Capilla Principal",
   ],
   redesSociales: {
-    instagram: "@parroquia_rosario_tc",
-    youtube: "Parroquia Nuestra Señora del Rosario",
-    facebook: "Parroquia Rosario Torrijos Carter",
+    instagram: "@nuestrasenoradelrosariotc",
+    youtube: "NSDRosarioPTY",
+    facebook: "Parroquia Nuestra Señora Del Rosario",
   },
   servicios: [
     "Misas dominicales y diarias",

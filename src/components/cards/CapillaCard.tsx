@@ -1,4 +1,5 @@
 import { Capilla } from "../../lib/data";
+import Image from "next/image";
 
 interface CapillaCardProps {
   capilla: Capilla;
@@ -14,7 +15,13 @@ export default function CapillaCard({ capilla, onClick }: CapillaCardProps) {
       <div className="h-48 bg-gradient-to-br from-blue-200 to-yellow-200 rounded-t-2xl flex items-center justify-center">
         <div className="text-center p-6">
           <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-            <span className="text-2xl">⛪</span>
+            <Image
+              src={capilla.imagen}
+              alt={`Imagen de ${capilla.nombre}`}
+              width={200}
+              height={200}
+              style={{ borderRadius: '50%' }}
+            />
           </div>
           <h3 className="font-bold text-blue-900 text-lg">{capilla.nombre}</h3>
         </div>

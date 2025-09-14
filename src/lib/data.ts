@@ -1,4 +1,5 @@
 // lib/data.ts
+
 export interface Capilla {
   id: number;
   nombre: string;
@@ -16,9 +17,9 @@ export interface Capilla {
 export const capillas: Capilla[] = [
   {
     id: 1,
-    nombre: "Torrijos Carter",
+    nombre: "P. Nuestra Señora Del Rosario",
     advocacion: "Nuestra Señora del Rosario",
-    imagen: "/images/capillas/torrijos-carter.jpg",
+    imagen: "/image/p_nuestra_senora_del_rosario.JPG",
     descripcion: "Capilla principal dedicada a Nuestra Señora del Rosario",
     historia: `La capilla Torrijos Carter es el corazón de nuestra parroquia, dedicada a Nuestra Señora del Rosario. 
     Esta hermosa capilla fue construida con el esfuerzo y la fe de toda la comunidad, siendo un lugar de encuentro 
@@ -34,7 +35,7 @@ export const capillas: Capilla[] = [
     id: 2,
     nombre: "Capilla Guadalupe",
     advocacion: "Nuestra Señora de Guadalupe",
-    imagen: "/images/capillas/guadalupe.jpg",
+    imagen: "/image/capilla_de_guadalupe.JPG",
     descripcion: "Dedicada a la Virgen de Guadalupe, Patrona de América",
     historia: `La Capilla de Guadalupe honra a Nuestra Señora de Guadalupe, la Morenita del Tepeyac. 
     Esta capilla es especial para nuestra comunidad latina, ya que la Virgen de Guadalupe es un símbolo 
@@ -54,7 +55,7 @@ export const capillas: Capilla[] = [
     id: 3,
     nombre: "Capilla Santa Teresa de Calcuta",
     advocacion: "Santa Teresa de Calcuta",
-    imagen: "/images/capillas/teresa-calcuta.jpg",
+    imagen: "/image/santa_teresa_de_calcuta.jpg",
     descripcion: "En honor a la Santa de los pobres",
     historia: `La Capilla de Santa Teresa de Calcuta está dedicada a la misionera de la caridad, 
     quien dedicó su vida al servicio de los más pobres entre los pobres. Esta capilla nos inspira 
@@ -74,7 +75,7 @@ export const capillas: Capilla[] = [
     id: 4,
     nombre: "Capilla Santa María la Antigua",
     advocacion: "Santa María la Antigua",
-    imagen: "/images/capillas/maria-antigua.jpg",
+    imagen: "/image/santa_maria_la_antigua.JPG",
     descripcion: "Patrona de Panamá la Vieja",
     historia: `La Capilla de Santa María la Antigua honra a la patrona histórica de Panamá la Vieja. 
     Esta advocación mariana tiene raíces profundas en la historia panameña, siendo venerada desde 
@@ -94,7 +95,7 @@ export const capillas: Capilla[] = [
     id: 5,
     nombre: "Capilla Nuestra Señora de Lourdes",
     advocacion: "Nuestra Señora de Lourdes",
-    imagen: "/images/capillas/lourdes.jpg",
+    imagen: "/image/capilla_nuestra_senora_de_lourdes.JPG",
     descripcion: "Lugar de sanación y milagros",
     historia: `La Capilla de Nuestra Señora de Lourdes es un lugar especial de oración por la sanación. 
     Inspirada en las apariciones de la Virgen María a Santa Bernadette en Francia, esta capilla 
@@ -114,7 +115,7 @@ export const capillas: Capilla[] = [
     id: 6,
     nombre: "Capilla Inmaculada Concepción",
     advocacion: "Inmaculada Concepción",
-    imagen: "/images/capillas/inmaculada.jpg",
+    imagen: "/image/capilla_inmaculada_concepción.JPG",
     descripcion: "Patrona de Panamá",
     historia: `La Capilla de la Inmaculada Concepción honra a la Patrona oficial de Panamá. 
     Esta advocación mariana es especialmente querida por todos los panameños, ya que bajo su 
@@ -134,7 +135,7 @@ export const capillas: Capilla[] = [
     id: 7,
     nombre: "Capilla Nuestra Señora Virgen del Carmen",
     advocacion: "Virgen del Carmen",
-    imagen: "/images/capillas/carmen.jpg",
+    imagen: "/image/capilla_del_carmen.jpg",
     descripcion: "Protectora de navegantes y pescadores",
     historia: `La Capilla de la Virgen del Carmen es especial para las familias de navegantes y pescadores 
     de nuestra comunidad. Como protectora de quienes se hacen a la mar, esta advocación mariana 
@@ -154,7 +155,7 @@ export const capillas: Capilla[] = [
     id: 8,
     nombre: "Capilla San José",
     advocacion: "San José",
-    imagen: "/images/capillas/san-jose.jpg",
+    imagen: "/image/capilla_de_san_jose.JPG",
     descripcion: "Patrono de los trabajadores y padre de familia",
     historia: `La Capilla de San José está dedicada al esposo de María y padre adoptivo de Jesús. 
     San José es el patrono de los trabajadores y modelo de padres de familia. En esta capilla 
@@ -174,7 +175,7 @@ export const capillas: Capilla[] = [
     id: 9,
     nombre: "Capilla Medalla Milagrosa",
     advocacion: "Medalla Milagrosa",
-    imagen: "/images/capillas/medalla-milagrosa.jpg",
+    imagen: "/image/capilla_de_medalla_milagrosa.JPG",
     descripcion: "Basada en las apariciones a Santa Catalina Labouré",
     historia: `La Capilla de la Medalla Milagrosa conmemora las apariciones de la Virgen María 
     a Santa Catalina Labouré en París, Francia. Esta devoción mariana es conocida por los 
@@ -250,6 +251,61 @@ export const documentales: Documental[] = [
   },
   {
     id: 5,
+    titulo: "La Construcción de Nuestras Capillas",
+    descripcion:
+      "El esfuerzo comunitario para construir nuestros espacios sagrados",
+    url: "https://youtube.com/watch?v=ejemplo5",
+    thumbnail: "/images/documentales/construccion.jpg",
+    duracion: "20:30",
+    fechaPublicacion: "2024-05-08",
+    categoria: "historia",
+  },
+    {
+    id: 6,
+    titulo: "La Construcción de Nuestras Capillas",
+    descripcion:
+      "El esfuerzo comunitario para construir nuestros espacios sagrados",
+    url: "https://youtube.com/watch?v=ejemplo5",
+    thumbnail: "/images/documentales/construccion.jpg",
+    duracion: "20:30",
+    fechaPublicacion: "2024-05-08",
+    categoria: "historia",
+  },
+    {
+    id: 7,
+    titulo: "La Construcción de Nuestras Capillas",
+    descripcion:
+      "El esfuerzo comunitario para construir nuestros espacios sagrados",
+    url: "https://youtube.com/watch?v=ejemplo5",
+    thumbnail: "/images/documentales/construccion.jpg",
+    duracion: "20:30",
+    fechaPublicacion: "2024-05-08",
+    categoria: "historia",
+  },
+    {
+    id: 8,
+    titulo: "La Construcción de Nuestras Capillas",
+    descripcion:
+      "El esfuerzo comunitario para construir nuestros espacios sagrados",
+    url: "https://youtube.com/watch?v=ejemplo5",
+    thumbnail: "/images/documentales/construccion.jpg",
+    duracion: "20:30",
+    fechaPublicacion: "2024-05-08",
+    categoria: "historia",
+  },
+    {
+    id: 9,
+    titulo: "La Construcción de Nuestras Capillas",
+    descripcion:
+      "El esfuerzo comunitario para construir nuestros espacios sagrados",
+    url: "https://youtube.com/watch?v=ejemplo5",
+    thumbnail: "/images/documentales/construccion.jpg",
+    duracion: "20:30",
+    fechaPublicacion: "2024-05-08",
+    categoria: "historia",
+  },
+    {
+    id: 10,
     titulo: "La Construcción de Nuestras Capillas",
     descripcion:
       "El esfuerzo comunitario para construir nuestros espacios sagrados",

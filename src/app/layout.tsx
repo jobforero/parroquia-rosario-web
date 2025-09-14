@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Parroquia Nuestra Señora del Rosario - Torrijos Carter",
-  description: "Página web oficial de la Parroquia Nuestra Señora del Rosario en Torrijos Carter, Colón, Panamá",
+  description:
+    "Página web oficial de la Parroquia Nuestra Señora del Rosario en Torrijos Carter, Colón, Panamá",
 };
 
 export default function RootLayout({
@@ -32,4 +33,3 @@ export default function RootLayout({
     </html>
   );
 }
-

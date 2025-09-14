@@ -28,7 +28,7 @@ export const capillas: Capilla[] = [
     fechaCelebracion: "7 de octubre",
     horariosMisa: ["Domingo 8:00 AM", "Domingo 10:00 AM", "Sábado 6:00 PM"],
     actividades: ["Rosario diario", "Catequesis", "Grupo de oración"],
-    slug: "torrijos-carter"
+    slug: "torrijos-carter",
   },
   {
     id: 2,
@@ -43,8 +43,12 @@ export const capillas: Capilla[] = [
     patrona: "Nuestra Señora de Guadalupe",
     fechaCelebracion: "12 de diciembre",
     horariosMisa: ["Domingo 6:00 PM"],
-    actividades: ["Mañanitas guadalupanas", "Peregrinación anual", "Danza azteca"],
-    slug: "guadalupe"
+    actividades: [
+      "Mañanitas guadalupanas",
+      "Peregrinación anual",
+      "Danza azteca",
+    ],
+    slug: "guadalupe",
   },
   {
     id: 3,
@@ -59,8 +63,12 @@ export const capillas: Capilla[] = [
     patrona: "Santa Teresa de Calcuta",
     fechaCelebracion: "5 de septiembre",
     horariosMisa: ["Miércoles 6:00 PM"],
-    actividades: ["Obras de caridad", "Visita a enfermos", "Comedor comunitario"],
-    slug: "santa-teresa-calcuta"
+    actividades: [
+      "Obras de caridad",
+      "Visita a enfermos",
+      "Comedor comunitario",
+    ],
+    slug: "santa-teresa-calcuta",
   },
   {
     id: 4,
@@ -75,8 +83,12 @@ export const capillas: Capilla[] = [
     patrona: "Santa María la Antigua",
     fechaCelebracion: "15 de agosto",
     horariosMisa: ["Viernes 6:00 PM"],
-    actividades: ["Celebraciones patrias", "Historia de Panamá", "Tradiciones coloniales"],
-    slug: "maria-antigua"
+    actividades: [
+      "Celebraciones patrias",
+      "Historia de Panamá",
+      "Tradiciones coloniales",
+    ],
+    slug: "maria-antigua",
   },
   {
     id: 5,
@@ -91,8 +103,12 @@ export const capillas: Capilla[] = [
     patrona: "Nuestra Señora de Lourdes",
     fechaCelebracion: "11 de febrero",
     horariosMisa: ["Martes 6:00 PM"],
-    actividades: ["Procesión de enfermos", "Oración por sanación", "Agua bendita"],
-    slug: "lourdes"
+    actividades: [
+      "Procesión de enfermos",
+      "Oración por sanación",
+      "Agua bendita",
+    ],
+    slug: "lourdes",
   },
   {
     id: 6,
@@ -107,8 +123,12 @@ export const capillas: Capilla[] = [
     patrona: "Inmaculada Concepción",
     fechaCelebracion: "8 de diciembre",
     horariosMisa: ["Jueves 6:00 PM"],
-    actividades: ["Fiestas patrias", "Consagración nacional", "Novena de la Inmaculada"],
-    slug: "inmaculada-concepcion"
+    actividades: [
+      "Fiestas patrias",
+      "Consagración nacional",
+      "Novena de la Inmaculada",
+    ],
+    slug: "inmaculada-concepcion",
   },
   {
     id: 7,
@@ -123,8 +143,12 @@ export const capillas: Capilla[] = [
     patrona: "Virgen del Carmen",
     fechaCelebracion: "16 de julio",
     horariosMisa: ["Lunes 6:00 PM"],
-    actividades: ["Bendición de embarcaciones", "Procesión marítima", "Oración por navegantes"],
-    slug: "virgen-carmen"
+    actividades: [
+      "Bendición de embarcaciones",
+      "Procesión marítima",
+      "Oración por navegantes",
+    ],
+    slug: "virgen-carmen",
   },
   {
     id: 8,
@@ -139,8 +163,12 @@ export const capillas: Capilla[] = [
     patrona: "San José",
     fechaCelebracion: "19 de marzo",
     horariosMisa: ["Sábado 8:00 AM"],
-    actividades: ["Día del padre", "Bendición de herramientas", "Oración por el trabajo"],
-    slug: "san-jose"
+    actividades: [
+      "Día del padre",
+      "Bendición de herramientas",
+      "Oración por el trabajo",
+    ],
+    slug: "san-jose",
   },
   {
     id: 9,
@@ -155,9 +183,13 @@ export const capillas: Capilla[] = [
     patrona: "Virgen de la Medalla Milagrosa",
     fechaCelebracion: "27 de noviembre",
     horariosMisa: ["Domingo 4:00 PM"],
-    actividades: ["Bendición de medallas", "Novena perpetua", "Milagros y testimonios"],
-    slug: "medalla-milagrosa"
-  }
+    actividades: [
+      "Bendición de medallas",
+      "Novena perpetua",
+      "Milagros y testimonios",
+    ],
+    slug: "medalla-milagrosa",
+  },
 ];
 
 export interface Documental {
@@ -168,60 +200,65 @@ export interface Documental {
   thumbnail: string;
   duracion: string;
   fechaPublicacion: string;
-  categoria: 'historia' | 'capillas' | 'tradiciones' | 'testimonios';
+  categoria: "historia" | "capillas" | "tradiciones" | "testimonios";
 }
 
 export const documentales: Documental[] = [
   {
     id: 1,
     titulo: "Historia de Nuestra Señora del Rosario",
-    descripcion: "Conoce los orígenes de nuestra parroquia y cómo ha crecido a lo largo de los años",
+    descripcion:
+      "Conoce los orígenes de nuestra parroquia y cómo ha crecido a lo largo de los años",
     url: "https://youtube.com/watch?v=ejemplo1",
     thumbnail: "/images/documentales/historia-rosario.jpg",
     duracion: "15:30",
     fechaPublicacion: "2024-01-15",
-    categoria: "historia"
+    categoria: "historia",
   },
   {
     id: 2,
     titulo: "Las 8 Capillas de Torrijos Carter",
-    descripcion: "Un recorrido por cada una de nuestras hermosas capillas y sus devociones",
+    descripcion:
+      "Un recorrido por cada una de nuestras hermosas capillas y sus devociones",
     url: "https://youtube.com/watch?v=ejemplo2",
     thumbnail: "/images/documentales/capillas.jpg",
     duracion: "22:15",
     fechaPublicacion: "2024-02-10",
-    categoria: "capillas"
+    categoria: "capillas",
   },
   {
     id: 3,
     titulo: "Tradiciones y Fe en Nuestra Comunidad",
-    descripcion: "Las tradiciones religiosas que mantenemos vivas en nuestra parroquia",
+    descripcion:
+      "Las tradiciones religiosas que mantenemos vivas en nuestra parroquia",
     url: "https://youtube.com/watch?v=ejemplo3",
     thumbnail: "/images/documentales/tradiciones.jpg",
     duracion: "18:45",
     fechaPublicacion: "2024-03-05",
-    categoria: "tradiciones"
+    categoria: "tradiciones",
   },
   {
     id: 4,
     titulo: "Testimonios de Fe - Milagros en Nuestra Parroquia",
-    descripcion: "Historias reales de milagros y conversiones en nuestra comunidad",
+    descripcion:
+      "Historias reales de milagros y conversiones en nuestra comunidad",
     url: "https://youtube.com/watch?v=ejemplo4",
     thumbnail: "/images/documentales/testimonios.jpg",
     duracion: "25:00",
     fechaPublicacion: "2024-04-12",
-    categoria: "testimonios"
+    categoria: "testimonios",
   },
   {
     id: 5,
     titulo: "La Construcción de Nuestras Capillas",
-    descripcion: "El esfuerzo comunitario para construir nuestros espacios sagrados",
+    descripcion:
+      "El esfuerzo comunitario para construir nuestros espacios sagrados",
     url: "https://youtube.com/watch?v=ejemplo5",
     thumbnail: "/images/documentales/construccion.jpg",
     duracion: "20:30",
     fechaPublicacion: "2024-05-08",
-    categoria: "historia"
-  }
+    categoria: "historia",
+  },
 ];
 
 export interface Evento {
@@ -231,7 +268,7 @@ export interface Evento {
   hora: string;
   lugar: string;
   descripcion: string;
-  tipo: 'misa' | 'procesion' | 'novena' | 'retiro' | 'celebracion';
+  tipo: "misa" | "procesion" | "novena" | "retiro" | "celebracion";
 }
 
 export const proximosEventos: Evento[] = [
@@ -242,7 +279,7 @@ export const proximosEventos: Evento[] = [
     hora: "10:00 AM",
     lugar: "Capilla Principal Torrijos Carter",
     descripcion: "Misa dominical con la comunidad",
-    tipo: "misa"
+    tipo: "misa",
   },
   {
     id: 2,
@@ -251,7 +288,7 @@ export const proximosEventos: Evento[] = [
     hora: "6:00 PM",
     lugar: "Capilla Virgen del Carmen",
     descripcion: "Novena especial por las intenciones de los navegantes",
-    tipo: "novena"
+    tipo: "novena",
   },
   {
     id: 3,
@@ -260,8 +297,8 @@ export const proximosEventos: Evento[] = [
     hora: "7:00 PM",
     lugar: "Desde Capilla Medalla Milagrosa",
     descripcion: "Procesión mensual con bendición de medallas",
-    tipo: "procesion"
-  }
+    tipo: "procesion",
+  },
 ];
 
 // Información general de la parroquia
@@ -273,9 +310,9 @@ export const infoParroquia = {
   parroco: "Padre [Nombre del Párroco]",
   horariosMisaDominical: [
     "8:00 AM - Capilla Principal",
-    "10:00 AM - Capilla Principal", 
+    "10:00 AM - Capilla Principal",
     "4:00 PM - Capilla Medalla Milagrosa",
-    "6:00 PM - Capilla Guadalupe"
+    "6:00 PM - Capilla Guadalupe",
   ],
   horariosMisaSemanal: [
     "Lunes 6:00 PM - Capilla Virgen del Carmen",
@@ -284,23 +321,23 @@ export const infoParroquia = {
     "Jueves 6:00 PM - Capilla Inmaculada Concepción",
     "Viernes 6:00 PM - Capilla Santa María la Antigua",
     "Sábado 8:00 AM - Capilla San José",
-    "Sábado 6:00 PM - Capilla Principal"
+    "Sábado 6:00 PM - Capilla Principal",
   ],
   redesSociales: {
     instagram: "@parroquia_rosario_tc",
     youtube: "Parroquia Nuestra Señora del Rosario",
-    facebook: "Parroquia Rosario Torrijos Carter"
+    facebook: "Parroquia Rosario Torrijos Carter",
   },
   servicios: [
     "Misas dominicales y diarias",
     "Bautismos",
-    "Primeras Comuniones", 
+    "Primeras Comuniones",
     "Confirmaciones",
     "Matrimonios",
     "Catequesis para niños y adultos",
     "Grupos de oración",
     "Visita a enfermos",
     "Obras de caridad",
-    "Asesoría espiritual"
-  ]
+    "Asesoría espiritual",
+  ],
 };

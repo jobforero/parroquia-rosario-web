@@ -9,7 +9,7 @@ export default function CapillasSection({
   onCapillaClick,
 }: CapillasSectionProps) {
   return (
-    <section id="capillas" className="py-16 bg-white">
+    <section id="capillas" className="py-16 bg-blue-50">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-blue-900 mb-4">
           Nuestras Capillas

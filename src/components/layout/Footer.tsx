@@ -1,5 +1,7 @@
-import { MapPin, Phone, Instagram, Youtube , Facebook} from "lucide-react";
+import { Phone, Instagram, Youtube, Facebook } from "lucide-react";
 import { infoParroquia } from "../../lib/data";
+import UbicacionLink from "../ui/UbicacionLink";
+import WhatsAppLink from "../ui/WhatsAppLink";
 
 export default function Footer() {
   return (
@@ -9,14 +11,12 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 text-yellow-200">Contacto</h3>
             <div className="space-y-2">
-              <p className="flex items-center space-x-2">
-                <MapPin className="w-4 h-4" />
-                <span>{infoParroquia.ubicacion}</span>
-              </p>
+              <UbicacionLink />
               <p className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
                 <span>{infoParroquia.telefono}</span>
               </p>
+              <WhatsAppLink />
               <p className="text-sm text-blue-200">
                 Email: {infoParroquia.email}
               </p>
@@ -58,7 +58,7 @@ export default function Footer() {
               >
                 <Youtube className="w-6 h-6" />
               </a>
-                            <a
+              <a
                 href={`https://www.facebook.com/@${infoParroquia.redesSociales.facebook}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -78,7 +78,7 @@ export default function Footer() {
 
         <div className="border-t border-blue-700 mt-8 pt-8 text-center">
           <p className="text-blue-200">
-            © 2024 {infoParroquia.nombre} - Torrijos Carter. Todos los derechos
+            © 2025 {infoParroquia.nombre} - Torrijos Carter. Todos los derechos
             reservados.
           </p>
         </div>

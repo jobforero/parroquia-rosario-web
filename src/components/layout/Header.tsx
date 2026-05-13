@@ -1,5 +1,7 @@
-import { MapPin, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 import { infoParroquia } from "../../lib/data";
+import UbicacionLink from "../ui/UbicacionLink";
+import WhatsAppLink from "../ui/WhatsAppLink";
 
 export default function Header() {
   return (
@@ -13,14 +15,12 @@ export default function Header() {
             Torrijos Carter
           </p>
           <div className="flex justify-center space-x-6 text-lg">
-            <div className="flex items-center space-x-2">
-              <MapPin className="w-5 h-5" />
-              <span>{infoParroquia.ubicacion}</span>
-            </div>
+            <UbicacionLink />
             <div className="flex items-center space-x-2">
               <Phone className="w-5 h-5" />
               <span>{infoParroquia.telefono}</span>
             </div>
+            <WhatsAppLink />
           </div>
         </div>
       </div>

@@ -1,4 +1,3 @@
-// lib/data.ts
 
 export interface Capilla {
   id: number;
@@ -17,22 +16,6 @@ export interface Capilla {
 export const capillas: Capilla[] = [
   {
     id: 1,
-    nombre: "P. Nuestra Señora Del Rosario",
-    advocacion: "Nuestra Señora del Rosario",
-    imagen: "/image/p_nuestra_senora_del_rosario.JPG",
-    descripcion: "Capilla principal dedicada a Nuestra Señora del Rosario",
-    historia: `La capilla Torrijos Carter es el corazón de nuestra parroquia, dedicada a Nuestra Señora del Rosario. 
-    Esta hermosa capilla fue construida con el esfuerzo y la fe de toda la comunidad, siendo un lugar de encuentro 
-    y oración para todas las familias del sector. Su advocación al Rosario nos invita diariamente a meditar los 
-    misterios de la vida de Jesús y María.`,
-    patrona: "Nuestra Señora del Rosario",
-    fechaCelebracion: "7 de octubre",
-    horariosMisa: ["Domingo 8:00 AM", "Domingo 10:00 AM", "Sábado 6:00 PM"],
-    actividades: ["Rosario diario", "Catequesis", "Grupo de oración"],
-    slug: "torrijos-carter",
-  },
-  {
-    id: 2,
     nombre: "Capilla Guadalupe",
     advocacion: "Nuestra Señora de Guadalupe",
     imagen: "/image/capilla_de_guadalupe.JPG",
@@ -43,7 +26,7 @@ export const capillas: Capilla[] = [
     todos sus hijos, especialmente los más necesitados.`,
     patrona: "Nuestra Señora de Guadalupe",
     fechaCelebracion: "12 de diciembre",
-    horariosMisa: ["Domingo 6:00 PM"],
+    horariosMisa: [""],
     actividades: [
       "Mañanitas guadalupanas",
       "Peregrinación anual",
@@ -52,7 +35,7 @@ export const capillas: Capilla[] = [
     slug: "guadalupe",
   },
   {
-    id: 3,
+    id: 2,
     nombre: "Capilla Santa Teresa de Calcuta",
     advocacion: "Santa Teresa de Calcuta",
     imagen: "/image/santa_teresa_de_calcuta.jpg",
@@ -63,7 +46,7 @@ export const capillas: Capilla[] = [
     Aquí se organizan obras de caridad y ayuda social.`,
     patrona: "Santa Teresa de Calcuta",
     fechaCelebracion: "5 de septiembre",
-    horariosMisa: ["Miércoles 6:00 PM"],
+    horariosMisa: [""],
     actividades: [
       "Obras de caridad",
       "Visita a enfermos",
@@ -72,7 +55,7 @@ export const capillas: Capilla[] = [
     slug: "santa-teresa-calcuta",
   },
   {
-    id: 4,
+    id: 3,
     nombre: "Capilla Santa María la Antigua",
     advocacion: "Santa María la Antigua",
     imagen: "/image/santa_maria_la_antigua.JPG",
@@ -83,7 +66,7 @@ export const capillas: Capilla[] = [
     manteniendo vivas las tradiciones de fe que nos han acompañado por siglos.`,
     patrona: "Santa María la Antigua",
     fechaCelebracion: "15 de agosto",
-    horariosMisa: ["Viernes 6:00 PM"],
+    horariosMisa: [""],
     actividades: [
       "Celebraciones patrias",
       "Historia de Panamá",
@@ -92,7 +75,7 @@ export const capillas: Capilla[] = [
     slug: "maria-antigua",
   },
   {
-    id: 5,
+    id: 4,
     nombre: "Capilla Nuestra Señora de Lourdes",
     advocacion: "Nuestra Señora de Lourdes",
     imagen: "/image/capilla_nuestra_senora_de_lourdes.JPG",
@@ -103,7 +86,7 @@ export const capillas: Capilla[] = [
     con enfermos y se ora especialmente por la salud de la comunidad.`,
     patrona: "Nuestra Señora de Lourdes",
     fechaCelebracion: "11 de febrero",
-    horariosMisa: ["Martes 6:00 PM"],
+    horariosMisa: [""],
     actividades: [
       "Procesión de enfermos",
       "Oración por sanación",
@@ -112,7 +95,7 @@ export const capillas: Capilla[] = [
     slug: "lourdes",
   },
   {
-    id: 6,
+    id: 5,
     nombre: "Capilla Inmaculada Concepción",
     advocacion: "Inmaculada Concepción",
     imagen: "/image/capilla_inmaculada_concepción.JPG",
@@ -123,7 +106,7 @@ export const capillas: Capilla[] = [
     con especial devoción y se realizan actos de consagración nacional.`,
     patrona: "Inmaculada Concepción",
     fechaCelebracion: "8 de diciembre",
-    horariosMisa: ["Jueves 6:00 PM"],
+    horariosMisa: [""],
     actividades: [
       "Fiestas patrias",
       "Consagración nacional",
@@ -132,7 +115,7 @@ export const capillas: Capilla[] = [
     slug: "inmaculada-concepcion",
   },
   {
-    id: 7,
+    id: 6,
     nombre: "Capilla Nuestra Señora Virgen del Carmen",
     advocacion: "Virgen del Carmen",
     imagen: "/image/capilla_del_carmen.jpg",
@@ -143,7 +126,7 @@ export const capillas: Capilla[] = [
     por la seguridad de los marineros.`,
     patrona: "Virgen del Carmen",
     fechaCelebracion: "16 de julio",
-    horariosMisa: ["Lunes 6:00 PM"],
+    horariosMisa: [""],
     actividades: [
       "Bendición de embarcaciones",
       "Procesión marítima",
@@ -152,7 +135,7 @@ export const capillas: Capilla[] = [
     slug: "virgen-carmen",
   },
   {
-    id: 8,
+    id: 7,
     nombre: "Capilla San José",
     advocacion: "San José",
     imagen: "/image/capilla_de_san_jose.JPG",
@@ -163,7 +146,7 @@ export const capillas: Capilla[] = [
     de las familias. Es un lugar de oración por el trabajo digno y la unidad familiar.`,
     patrona: "San José",
     fechaCelebracion: "19 de marzo",
-    horariosMisa: ["Sábado 8:00 AM"],
+    horariosMisa: [""],
     actividades: [
       "Día del padre",
       "Bendición de herramientas",
@@ -172,7 +155,7 @@ export const capillas: Capilla[] = [
     slug: "san-jose",
   },
   {
-    id: 9,
+    id: 8,
     nombre: "Capilla Medalla Milagrosa",
     advocacion: "Medalla Milagrosa",
     imagen: "/image/capilla_de_medalla_milagrosa.JPG",
@@ -183,7 +166,7 @@ export const capillas: Capilla[] = [
     se bendicen las medallas y se ora especialmente por las intenciones más urgentes de los fieles.`,
     patrona: "Virgen de la Medalla Milagrosa",
     fechaCelebracion: "27 de noviembre",
-    horariosMisa: ["Domingo 4:00 PM"],
+    horariosMisa: [""],
     actividades: [
       "Bendición de medallas",
       "Novena perpetua",
@@ -213,7 +196,7 @@ export const documentales: Documental[] = [
     url: "https://www.youtube.com/watch?v=XdzHcVfjFv8&t=2s",
     thumbnail: "/image/hNSDR.jpg",
     duracion: "15:30",
-    fechaPublicacion: "2024-01-15",
+    fechaPublicacion: "2025-01-15",
     categoria: "historia",
   },
   {
@@ -224,7 +207,7 @@ export const documentales: Documental[] = [
     url: "https://www.youtube.com/playlist?list=PLOK6AcADtYGtUnM_2exbj2LdPT6XG982Z",
     thumbnail: "/image/vigiliaPascual.jpg",
     duracion: "22:15",
-    fechaPublicacion: "2024-02-10",
+    fechaPublicacion: "2025-02-10",
     categoria: "capillas",
   },
   {
@@ -235,7 +218,7 @@ export const documentales: Documental[] = [
     url: "https://www.youtube.com/watch?v=1WApqnzTBws",
     thumbnail: "/image/Himno_a_Nuestra_Señora_del_Rosario_versión_típica.jpg",
     duracion: "18:45",
-    fechaPublicacion: "2024-03-05",
+    fechaPublicacion: "2025-03-05",
     categoria: "tradiciones",
   },
   {
@@ -246,7 +229,7 @@ export const documentales: Documental[] = [
     url: "https://www.youtube.com/watch?v=59WRWQMNBYk",
     thumbnail: "/image/HIMNO_A_NUESTRA_SEnORA.jpg",
     duracion: "25:00",
-    fechaPublicacion: "2024-04-12",
+    fechaPublicacion: "2025-04-12",
     categoria: "testimonios",
   },
 ];
@@ -265,7 +248,7 @@ export const proximosEventos: Evento[] = [
   {
     id: 1,
     titulo: "Misa Dominical",
-    fecha: "2024-09-15",
+    fecha: "2025-09-15",
     hora: "10:00 AM",
     lugar: "Capilla Principal Torrijos Carter",
     descripcion: "Misa dominical con la comunidad",
@@ -274,7 +257,7 @@ export const proximosEventos: Evento[] = [
   {
     id: 2,
     titulo: "Novena a la Virgen del Carmen",
-    fecha: "2024-09-16",
+    fecha: "2025-09-16",
     hora: "6:00 PM",
     lugar: "Capilla Virgen del Carmen",
     descripcion: "Novena especial por las intenciones de los navegantes",
@@ -283,7 +266,7 @@ export const proximosEventos: Evento[] = [
   {
     id: 3,
     titulo: "Procesión de la Medalla Milagrosa",
-    fecha: "2024-09-27",
+    fecha: "2025-09-27",
     hora: "7:00 PM",
     lugar: "Desde Capilla Medalla Milagrosa",
     descripcion: "Procesión mensual con bendición de medallas",
@@ -296,22 +279,21 @@ export const infoParroquia = {
   nombre: "Parroquia Nuestra Señora del Rosario",
   ubicacion: "Torrijos Carter",
   telefono: "234-2463",
+  whatsapp: "6469-0784",
   email: "parroquia.rosario@gmail.com",
   parroco: "Párroco: Andrés Acevedo",
   horariosMisaDominical: [
     "7:00 AM - Parroquia",
-    "10:00 AM - Parroquia",
-    "4:00 PM - Capilla Medalla Milagrosa",
-    "6:00 PM - Capilla Guadalupe",
+    "11:00 AM - Parroquia"
   ],
   horariosMisaSemanal: [
-    "Lunes 6:00 PM - Capilla Virgen del Carmen",
-    "Martes 6:00 PM - Capilla Nuestra Señora de Lourdes",
-    "Miércoles 6:00 PM - Capilla Santa Teresa de Calcuta",
-    "Jueves 6:00 PM - Capilla Inmaculada Concepción",
-    "Viernes 6:00 PM - Capilla Santa María la Antigua",
-    "Sábado 8:00 AM - Capilla San José",
-    "Sábado 6:00 PM - Capilla Principal",
+    " - Capilla Virgen del Carmen",
+    " - Capilla Nuestra Señora de Lourdes",
+    " - Capilla Santa Teresa de Calcuta",
+    " - Capilla Inmaculada Concepción",
+    " - Capilla Santa María la Antigua",
+    " - Capilla San José",
+    " - Capilla Principal",
   ],
   redesSociales: {
     instagram: "nuestrasenoradelrosariotc",

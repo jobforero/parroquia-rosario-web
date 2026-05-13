@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Calendar } from "lucide-react";
 import { Capilla } from "../../lib/data";
 
@@ -9,7 +10,7 @@ interface CapillaModalProps {
 export default function CapillaModal({ capilla, onClose }: CapillaModalProps) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-      <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+      <div className="bg-blue-50 rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto">
         <div className="p-6">
           <div className="flex justify-between items-start mb-4">
             <h3 className="text-2xl font-bold text-blue-900">
@@ -31,12 +32,20 @@ export default function CapillaModal({ capilla, onClose }: CapillaModalProps) {
 
           {capilla.fechaCelebracion && (
             <p className="text-green-600 font-medium mb-4">
-              🎉 Fiesta Patronal: {capilla.fechaCelebracion}
+              Fiesta Patronal: {capilla.fechaCelebracion}
             </p>
           )}
 
-          <div className="h-48 bg-gradient-to-br from-blue-100 to-yellow-100 rounded-lg flex items-center justify-center mb-4">
-            <span className="text-6xl">⛪</span>
+
+          <div className="flex justify-center mb-4">
+            <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-blue-200 shadow-lg bg-blue-50">
+              <Image
+                src={capilla.imagen}
+                alt={capilla.nombre}
+                fill
+                className="object-contain"
+              />
+            </div>
           </div>
 
           <div className="mb-4">

@@ -5,7 +5,7 @@ export default function HorariosSection() {
   return (
     <section
       id="horarios"
-      className="py-16 bg-gradient-to-r from-yellow-50 to-blue-50"
+      className="py-16 bg-blue-50"
     >
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-blue-900 mb-8">
@@ -16,7 +16,7 @@ export default function HorariosSection() {
           {/* Misas Dominicales */}
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-blue-100">
             <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">
-              Domingos
+              Domingos Parroquia
             </h3>
             <div className="space-y-3">
               {infoParroquia.horariosMisaDominical.map((horario, index) => (

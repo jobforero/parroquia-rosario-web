@@ -8,13 +8,12 @@ export default function Header() {
     <header className="bg-gradient-to-r from-blue-900 to-blue-700 text-white">
       <div className="container mx-auto px-6 py-8">
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-yellow-100">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-yellow-100"
+            style={{ fontFamily: "var(--font-playfair)" }}>
             {infoParroquia.nombre}
           </h1>
-          <p className="text-xl md:text-2xl mb-6 text-blue-100">
-            Torrijos Carter
-          </p>
-          <div className="flex justify-center space-x-6 text-lg">
+
+          <div className="flex flex-col md:flex-row items-center justify-center md:space-x-6 space-y-2 md:space-y-0 text-sm md:text-lg">
             <UbicacionLink />
             <div className="flex items-center space-x-2">
               <Phone className="w-5 h-5" />

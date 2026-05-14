@@ -9,6 +9,7 @@ const links = [
   { href: "#documentales", label: "Documentales" },
   { href: "#horarios", label: "Horarios" },
   { href: "#contacto", label: "Contacto" },
+  { href: "#mision", label: "Misión" },
 ];
 
 export default function Navigation() {

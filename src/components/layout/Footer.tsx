@@ -27,14 +27,18 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4 text-yellow-200">
-              Servicios
-            </h3>
-            <div className="grid grid-cols-2 gap-1 text-sm">
-              {infoParroquia.servicios.slice(0, 6).map((servicio, index) => (
-                <p key={index} className="text-blue-200">
-                  • {servicio}
-                </p>
+            <h3 className="text-xl font-bold mb-4 text-yellow-200">Sacramentos</h3>
+            <div className="flex flex-col space-y-2 text-sm">
+              {[
+                { label: "Bautismo", href: "/sacramentos/bautismo" },
+                { label: "Primera Comunión", href: "/sacramentos/primera-comunion" },
+                { label: "Confirmación", href: "/sacramentos/confirmacion" },
+                { label: "Matrimonio", href: "/sacramentos/matrimonio" },
+                { label: "Unción de los Enfermos", href: "/sacramentos/uncion-enfermos" },
+              ].map((s) => (
+                <a key={s.href} href={s.href} className="text-blue-200 hover:text-yellow-300 transition-colors">
+                  • {s.label}
+                </a>
               ))}
             </div>
           </div>

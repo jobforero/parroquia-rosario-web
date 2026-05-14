@@ -28,9 +28,7 @@ export default function DocumentalCard({ documental }: DocumentalCardProps) {
       <div className="p-6">
         <h3 className="font-bold text-gray-900 mb-2">{documental.titulo}</h3>
         <p className="text-sm text-gray-600 mb-2">{documental.descripcion}</p>
-        <p className="text-sm text-gray-500 mb-4">
-          Duración: {documental.duracion} | Categoría: {documental.categoria}
-        </p>
+
         <a
           href={documental.url}
           target="_blank"

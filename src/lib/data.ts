@@ -1,4 +1,3 @@
-
 export interface Capilla {
   id: number;
   nombre: string;
@@ -182,55 +181,73 @@ export interface Documental {
   descripcion: string;
   url: string;
   thumbnail: string;
-  duracion: string;
-  fechaPublicacion: string;
-  categoria: "historia" | "capillas" | "tradiciones" | "testimonios";
+  //duracion: string;
+  //fechaPublicacion: string;
+  //categoria: "historia" | "capillas" | "tradiciones" | "testimonios"| "canto";
 }
 
 export const documentales: Documental[] = [
   {
     id: 1,
-    titulo: "Historia de Nuestra Señora del Rosario",
+    titulo: "HISTORIA DE NUESTRA SEÑORA DEL ROSARIO",
     descripcion:
       "Conoce los orígenes de nuestra parroquia y cómo ha crecido a lo largo de los años",
     url: "https://www.youtube.com/watch?v=XdzHcVfjFv8&t=2s",
     thumbnail: "/image/hNSDR.jpg",
-    duracion: "15:30",
-    fechaPublicacion: "2025-01-15",
-    categoria: "historia",
+    //duracion: "15:30",
+    //fechaPublicacion: "2025-01-15",
+    //categoria: "historia",
   },
   {
     id: 2,
-    titulo: "Vigulia Pascual 2026",
+    titulo: "VIGULIA PASCUAL 2026",
     descripcion:
-      "Un recorrido por cada una de nuestras hermosas capillas y sus devociones",
+      "Esta es la nocheen que, rotas las cadenas de la muerte, Cristo asciende victorioso del abismo.",
     url: "https://www.youtube.com/playlist?list=PLOK6AcADtYGtUnM_2exbj2LdPT6XG982Z",
     thumbnail: "/image/vigiliaPascual.jpg",
-    duracion: "22:15",
-    fechaPublicacion: "2025-02-10",
-    categoria: "capillas",
+    //duracion: "22:15",
+    //fechaPublicacion: "2025-02-10",
+    //categoria: "capillas",
   },
   {
     id: 3,
-    titulo: "Himno a Nuestra Señora del Rosario, versión típica",
-    descripcion:
-      "Las tradiciones religiosas que mantenemos vivas en nuestra parroquia",
+    titulo: "HIMNO A NUESTRA SEÑORA DEL ROSARIO, VERSIÓN TÍPICA",
+    descripcion: "Himno a Nuestra Señora del Rosario, versión típica",
     url: "https://www.youtube.com/watch?v=1WApqnzTBws",
     thumbnail: "/image/Himno_a_Nuestra_Señora_del_Rosario_versión_típica.jpg",
-    duracion: "18:45",
-    fechaPublicacion: "2025-03-05",
-    categoria: "tradiciones",
+    //duracion: "18:45",
+    ///fechaPublicacion: "2025-03-05",
+    //categoria: "tradiciones",
   },
   {
     id: 4,
     titulo: "HIMNO A NUESTRA SEÑORA DEL ROSARIO DE TORRIJOS CARTER",
-    descripcion:
-      "Historias reales de milagros y conversiones en nuestra comunidad",
+    descripcion: "Himno a nuestra señora del rosario de torrijos carter",
     url: "https://www.youtube.com/watch?v=59WRWQMNBYk",
     thumbnail: "/image/HIMNO_A_NUESTRA_SEnORA.jpg",
-    duracion: "25:00",
-    fechaPublicacion: "2025-04-12",
-    categoria: "testimonios",
+    //duracion: "25:00",
+    //fechaPublicacion: "2025-04-12",
+    //categoria: "testimonios",
+  },
+  {
+    id: 5,
+    titulo: "MENSAJE DE LA FRATERNIDAD.",
+    descripcion: "La fraternidad es hermandad y nace desde la unión familiar.",
+    url: "https://www.youtube.com/watch?v=PiVMCy7NPY4",
+    thumbnail: "/image/fraternidad.jpg",
+    //duracion: "00:40",
+    //fechaPublicacion: "2025-04-12",
+    //categoria: "testimonios",
+  },
+  {
+    id: 6,
+    titulo: "HIMNO DEL CATEQUISTA.",
+    descripcion: "Himno del Catequista - P. Nuestra Señora Del Rosario TC.",
+    url: "https://www.youtube.com/watch?v=ciVj7qdbj_U",
+    thumbnail: "/image/Himno_del_Catequista.jpg",
+    //duracion: "00:40",
+    //fechaPublicacion: "2025-04-12",
+    //categoria: "testimonios",
   },
 ];
 
@@ -281,11 +298,8 @@ export const infoParroquia = {
   telefono: "234-2463",
   whatsapp: "6469-0784",
   email: "parroquia.rosario@gmail.com",
-  parroco: "Párroco: Andrés Acevedo",
-  horariosMisaDominical: [
-    "7:00 AM - Parroquia",
-    "11:00 AM - Parroquia"
-  ],
+  parroco: "Andrés Acevedo",
+  horariosMisaDominical: ["7:00 AM - Parroquia", "11:00 AM - Parroquia"],
   horariosMisaSemanal: [
     " - Capilla Virgen del Carmen",
     " - Capilla Nuestra Señora de Lourdes",
@@ -300,16 +314,4 @@ export const infoParroquia = {
     youtube: "nsdrosariopty507",
     facebook: "NSDRosarioPTY",
   },
-  servicios: [
-    "Misas dominicales y diarias",
-    "Bautismos",
-    "Primeras Comuniones",
-    "Confirmaciones",
-    "Matrimonios",
-    "Catequesis para niños y adultos",
-    "Grupos de oración",
-    "Visita a enfermos",
-    "Obras de caridad",
-    "Asesoría espiritual",
-  ],
 };

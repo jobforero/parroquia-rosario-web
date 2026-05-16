@@ -13,7 +13,7 @@ const temas = [
     href: "/mision/el-amor-de-dios",
     label: "El Amor de Dios",
     icon: "/image/Dios_es_amor.jpg",
-    desc: "Tema 1 — El amor incondicional del Padre"
+    desc: "El amor incondicional del Padre"
   },
   {
     href: "/mision/dios-te-ama",

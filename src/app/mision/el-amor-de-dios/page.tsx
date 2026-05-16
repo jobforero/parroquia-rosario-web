@@ -11,7 +11,7 @@ export default function ElAmorDeDiosPage() {
                 <div className="text-center mb-8">
                     <HeroIcon src="/image/Dios_es_amor.jpg" alt="El Amor de Dios" size={80} />
                     <h1 className="text-3xl font-bold text-yellow-200 mt-4">El Amor de Dios</h1>
-                    <p className="text-blue-200 mt-2">Tema 1 — Misión Nacional Sinodal</p>
+                    <p className="text-blue-200 mt-2">Misión Nacional Sinodal</p>
                     <div className="w-16 h-1 bg-yellow-300 mx-auto mt-4 rounded-full" />
                 </div>
 
